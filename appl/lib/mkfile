@@ -1,0 +1,13 @@
+<../../mkconfig
+
+TARG=\
+	filtertool.dis\
+
+SYSMODULES=\
+	sys.m\
+	filter.m\
+	filtertool.m\
+
+DISBIN=$ROOT/dis/lib
+
+<$ROOT/mkfiles/mkdis

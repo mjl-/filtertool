@@ -1,0 +1,14 @@
+<../../mkconfig
+
+TARG=\
+	testfilterpush.dis\
+
+SYSMODULES=\
+	sys.m\
+	draw.m\
+	filter.m\
+	filtertool.m\
+
+DISBIN=$ROOT/dis
+
+<$ROOT/mkfiles/mkdis
